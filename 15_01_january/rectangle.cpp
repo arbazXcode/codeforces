@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int length;
+    int breadth;
+
+    cin>>length;
+    cin>>breadth;
+
+    cout<<"Area = "<<length * breadth<<endl;
+    cout<<"Perimeter = "<< 2 * (length + breadth)<<endl;
+
+    return 0;
+}
